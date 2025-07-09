@@ -151,7 +151,7 @@ export function Navigation() {
 
               {[
                 { icon: Github, href: "https://github.com/Absar-ao4" },
-                { icon: Linkedin, href: "#" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/watching-absar-ali/" },
                 { icon: Mail, href: "#contact", onClick: () => handleNavClick("#contact") },
               ].map((social, index) => (
                 <motion.div key={index} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
